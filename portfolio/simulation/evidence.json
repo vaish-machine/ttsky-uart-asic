@@ -1,0 +1,21 @@
+{
+  "result": "PASS",
+  "release_commit": "5ae3cfc4481abf22cda836ca8179ee21ce64b305",
+  "original_testbench_revision": "e2c612a965548cc12c411957594874496a0d8a8e",
+  "original_testbench_sha256": "2b4c0e79e2a801a9239f8cd833c375c1fa384b52747fe3b56199fa32b0e09266",
+  "instrumented_testbench_sha256": "66727a69634f1f9802a5aeb0b88419284890b6ade5787d9ef22669b892ccfb42",
+  "instrumentation": "VCD and sampled CSV only",
+  "rtl_sha256": {
+    "uart_tx.sv": "e33473f8c116a628cf506b461905f9ac3a16fa48bcbe8862fabc96aec6eee4e0",
+    "uart_rx.sv": "56c412953699833b297fb97f2f57b4543e2b4dc1b647b7331ff43131a908d3fd",
+    "uart_core.sv": "02f4d6fb801ce37f23dd6e12fd59d437a79496cfe6c9b54763ede08d2f083dd1",
+    "tt_um_vaish_uart.v": "2fe637df662f88015a8ca809a8ec8220fd622bb8a665a0973921b4d8350734ad"
+  },
+  "waveform_sha256": "f0727fa98f6005c628947e94e668560fe8bf332e5f0a297b71a964fd356d4cde",
+  "tests": [
+    "Output-enable mapping",
+    "Reset and idle mapping",
+    "TX 8N1 frame 0xA5",
+    "RX 8N1 frame 0x5A"
+  ]
+}

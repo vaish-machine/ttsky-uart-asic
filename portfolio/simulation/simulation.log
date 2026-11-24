@@ -1,0 +1,6 @@
+VCD info: dumpfile uart-wrapper.vcd opened for output.
+PASS | Wrapper I/O direction | uio_oe=0x3C
+PASS | Wrapper TX frame | 8N1 0xA5 at CPB=16
+PASS | Wrapper RX frame | 8N1 0x5A, valid pulse, no framing error
+PASS | Stage 3A Tiny Tapeout UART mapping simulation | All checks passed
+/mnt/g/C-Drive-Backup-PreReset/Projects/TTSKY-UART-Portfolio-20261124-165440-065976/portfolio/simulation/tb_tt_um_vaish_uart.sv:123: $finish called at 33651000 (1ps)

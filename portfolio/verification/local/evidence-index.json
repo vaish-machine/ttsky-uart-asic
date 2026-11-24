@@ -1,0 +1,44 @@
+[
+  {
+    "file": "formal-equivalence.json",
+    "original_sha256": "7a73cad9eac1c2d8d5d58fb501cf5ba75430801d0bb7b941386b20b27f62f9f2",
+    "published_sha256": "9a97910c138d90b249ac4c30def2ddc42585fe72a4ba1f0d3b72fb8deceb5591",
+    "path_redaction_applied": true
+  },
+  {
+    "file": "nine-corner-sta.json",
+    "original_sha256": "e707047697ac2baf0c32ae9b7cb90df1cca6930f8c5964dae8a25ff9c547514e",
+    "published_sha256": "ecfe6a6b05ba6512088df501d4bc348b80d8e4f581dd9888f6f0c6ef0999cdca",
+    "path_redaction_applied": true
+  },
+  {
+    "file": "connectivity.json",
+    "original_sha256": "4d465503f94a2ecb682a9c93800685eeb821596b9ce995f493a455798a765387",
+    "published_sha256": "737b0777866cdaeb22a9a267808577f10decad7c1c735a9c71ee782c65addb22",
+    "path_redaction_applied": true
+  },
+  {
+    "file": "power-grid.json",
+    "original_sha256": "fb92ad7cf447639e94bf93bd16d7b15442c905d9a42cca247ca55cac402cbf1c",
+    "published_sha256": "c11635345d4353c4ea313bc879c07904d06539a429fcf7080d37022a1984142f",
+    "path_redaction_applied": true
+  },
+  {
+    "file": "external-io-timing.json",
+    "original_sha256": "169cebcc485b09aebab71a2ba47a9d82bd89a16454da4ad7810c5b488ad629a0",
+    "published_sha256": "0834948c9f1681c001b2073a222228251b1fc72840cfba65b176cf1d2a4ca53c",
+    "path_redaction_applied": true
+  },
+  {
+    "file": "eco-verification.json",
+    "original_sha256": "12859b949dd38ebf17c1a2585187bc0f6b75bbd5171ec85d518a87e14371f9d5",
+    "published_sha256": "ce4222ad3d7c4eb16f3147795fc19ee636cb179823837d22ca4ea56fd09c3aba",
+    "path_redaction_applied": true
+  },
+  {
+    "file": "physical-metrics.json",
+    "original_sha256": "d41e79fc5440838f1fdea4488838162c2bb68603310761721b1feb31634504c7",
+    "published_sha256": "e39e0225fdce77a30f2fc70ec31131eb72ba549e93f3be3c7cc2585d273e0ad5",
+    "path_redaction_applied": true
+  }
+]

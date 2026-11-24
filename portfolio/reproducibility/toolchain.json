@@ -1,0 +1,16 @@
+{
+  "librelane_version": "3.0.17",
+  "librelane_appimage_sha256": "c8ef5ae26b1fc53dd1dd30fe2f1a1da6ab0fdf471dd5a94c2b85d2b3db36833c",
+  "process": "SKY130A",
+  "standard_cell_library": "sky130_fd_sc_hd",
+  "local_pdk_revision": "8afc8346a57fe1ab7934ba5a6056ea8b43078e71",
+  "provider_precheck_pdk_revision": "0536d02d875c8f67dd7cca3902ac457e62f20005",
+  "official_action_revision": "df73a1e7b52e940423ff55f9354b2b8140d38cb7",
+  "clock_period_ns": 100,
+  "historical_source_revision": "e2c612a965548cc12c411957594874496a0d8a8e",
+  "manufacturing_revision": "5ae3cfc4481abf22cda836ca8179ee21ce64b305",
+  "available_configs": [
+    "resolved-config.json"
+  ],
+  "portable_bit_identical_rebuild": "NOT DEMONSTRATED"
+}

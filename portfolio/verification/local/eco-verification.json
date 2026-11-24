@@ -1,0 +1,155 @@
+{
+  "stage": "Stage3Z",
+  "read_only": true,
+  "baseline": "Stage3M",
+  "experiment": "Stage3Y",
+  "metric_checks_zero": true,
+  "eco": {
+    "name": "eco_buffer_0",
+    "old_sinks": [
+      [
+        "_298_",
+        "S",
+        "sky130_fd_sc_hd__mux2_1"
+      ],
+      [
+        "_299_",
+        "S",
+        "sky130_fd_sc_hd__mux2_1"
+      ],
+      [
+        "_305_",
+        "A2",
+        "sky130_fd_sc_hd__a21oi_2"
+      ],
+      [
+        "_308_",
+        "A4",
+        "sky130_fd_sc_hd__a41o_2"
+      ],
+      [
+        "_327_",
+        "S",
+        "sky130_fd_sc_hd__mux2_1"
+      ],
+      [
+        "_330_",
+        "S",
+        "sky130_fd_sc_hd__mux2_1"
+      ],
+      [
+        "_333_",
+        "S",
+        "sky130_fd_sc_hd__mux2_1"
+      ],
+      [
+        "_336_",
+        "S",
+        "sky130_fd_sc_hd__mux2_1"
+      ],
+      [
+        "_339_",
+        "S",
+        "sky130_fd_sc_hd__mux2_1"
+      ],
+      [
+        "_342_",
+        "S",
+        "sky130_fd_sc_hd__mux2_1"
+      ]
+    ],
+    "only_one_added": true
+  },
+  "corners": {
+    "nom_ss_100C_1v60": {
+      "metric": 0,
+      "metric_pass": true
+    },
+    "min_ss_100C_1v60": {
+      "metric": 0,
+      "metric_pass": true
+    },
+    "max_ss_100C_1v60": {
+      "metric": 0,
+      "metric_pass": true
+    }
+  },
+  "steps": {
+    "ECO insertion": {
+      "folders": [
+        "[WSL_HOME]/DevTools/LibreLane/ttsky_sky130_3x2_stage3y_eco_buf4_trial/run-y3fkajqm/src/runs/stage3y-eco-buf4-20261119-031938-180749/01-odb-insertecobuffers"
+      ],
+      "state_out_count": 1,
+      "pass": true
+    },
+    "Detailed reroute": {
+      "folders": [
+        "[WSL_HOME]/DevTools/LibreLane/ttsky_sky130_3x2_stage3y_eco_buf4_trial/run-y3fkajqm/src/runs/stage3y-eco-buf4-20261119-031938-180749/02-openroad-detailedrouting-1"
+      ],
+      "state_out_count": 1,
+      "pass": true
+    },
+    "RC extraction": {
+      "folders": [
+        "[WSL_HOME]/DevTools/LibreLane/ttsky_sky130_3x2_stage3y_eco_buf4_trial/run-y3fkajqm/src/runs/stage3y-eco-buf4-20261119-031938-180749/12-openroad-rcx"
+      ],
+      "state_out_count": 1,
+      "pass": true
+    },
+    "Postroute STA": {
+      "folders": [
+        "[WSL_HOME]/DevTools/LibreLane/ttsky_sky130_3x2_stage3y_eco_buf4_trial/run-y3fkajqm/src/runs/stage3y-eco-buf4-20261119-031938-180749/13-openroad-stapostpnr"
+      ],
+      "state_out_count": 1,
+      "pass": true
+    },
+    "Magic DRC": {
+      "folders": [
+        "[WSL_HOME]/DevTools/LibreLane/ttsky_sky130_3x2_stage3y_eco_buf4_trial/run-y3fkajqm/src/runs/stage3y-eco-buf4-20261119-031938-180749/20-magic-drc"
+      ],
+      "state_out_count": 1,
+      "pass": true
+    },
+    "KLayout DRC": {
+      "folders": [
+        "[WSL_HOME]/DevTools/LibreLane/ttsky_sky130_3x2_stage3y_eco_buf4_trial/run-y3fkajqm/src/runs/stage3y-eco-buf4-20261119-031938-180749/21-klayout-drc"
+      ],
+      "state_out_count": 1,
+      "pass": true
+    },
+    "LVS": {
+      "folders": [
+        "[WSL_HOME]/DevTools/LibreLane/ttsky_sky130_3x2_stage3y_eco_buf4_trial/run-y3fkajqm/src/runs/stage3y-eco-buf4-20261119-031938-180749/26-netgen-lvs"
+      ],
+      "state_out_count": 1,
+      "pass": true
+    }
+  },
+  "reports": {
+    "nom_ss_100C_1v60": {
+      "file": "[WSL_HOME]/DevTools/LibreLane/ttsky_sky130_3x2_stage3y_eco_buf4_trial/run-y3fkajqm/src/runs/stage3y-eco-buf4-20261119-031938-180749/13-openroad-stapostpnr/nom_ss_100C_1v60/checks.rpt",
+      "sha256": "95fee09be4515a30c2435ce020c3597c9c595dc7b42dd5a3cbc01cee969975f4",
+      "has_slew_section": false,
+      "violations": [],
+      "pass": false
+    },
+    "min_ss_100C_1v60": {
+      "file": "[WSL_HOME]/DevTools/LibreLane/ttsky_sky130_3x2_stage3y_eco_buf4_trial/run-y3fkajqm/src/runs/stage3y-eco-buf4-20261119-031938-180749/13-openroad-stapostpnr/min_ss_100C_1v60/checks.rpt",
+      "sha256": "cc497e73388aac5e6090c22be6cf08f37d596fa4bab13eb49ffe0ef87ede74a1",
+      "has_slew_section": false,
+      "violations": [],
+      "pass": false
+    },
+    "max_ss_100C_1v60": {
+      "file": "[WSL_HOME]/DevTools/LibreLane/ttsky_sky130_3x2_stage3y_eco_buf4_trial/run-y3fkajqm/src/runs/stage3y-eco-buf4-20261119-031938-180749/13-openroad-stapostpnr/max_ss_100C_1v60/checks.rpt",
+      "sha256": "343550eb4e71b0f77dd0fec9c91cac07e342aa26d383447c0c602d27d0066606",
+      "has_slew_section": false,
+      "violations": [],
+      "pass": false
+    }
+  },
+  "flow_log_completed": true,
+  "local_evidence_gate_pass": false,
+  "official_provider_precheck": "OPEN",
+  "equivalence": "NOT PROVEN"
+}

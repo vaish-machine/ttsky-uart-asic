@@ -1,0 +1,6 @@
+{
+  "status": "NOT RUN",
+  "conclusion": "NOT VERIFIED",
+  "reason": "GitHub workflow dispatch denied: HTTP 403",
+  "url": "https://github.com/vaish-machine/ttsky-uart-asic/actions/workflows/docs.yaml"
+}

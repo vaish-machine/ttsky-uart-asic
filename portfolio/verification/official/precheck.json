@@ -1,0 +1,37 @@
+{
+  "workflow": "https://github.com/vaish-machine/ttsky-uart-asic/actions/runs/45433759245",
+  "run_id": 45433759245,
+  "release_commit": "5ae3cfc4481abf22cda836ca8179ee21ce64b305",
+  "jobs": {
+    "gds": "success",
+    "precheck": "success"
+  },
+  "checks": {
+    "Magic DRC": "PASS",
+    "KLayout FEOL": "PASS",
+    "KLayout BEOL": "PASS",
+    "KLayout offgrid": "PASS",
+    "KLayout pin label overlapping drawing": "PASS",
+    "KLayout zero area": "PASS",
+    "KLayout Checks": "PASS",
+    "Pin check": "PASS",
+    "Boundary check": "PASS",
+    "Power pin check": "PASS",
+    "Layer check": "PASS",
+    "Cell name check": "PASS",
+    "urpm/nwell check": "PASS",
+    "hvtp/nwell check": "PASS",
+    "lvtn/nwell check": "PASS",
+    "Analog pin check": "PASS",
+    "Verilog syntax check": "PASS"
+  },
+  "passed": 17,
+  "failed": 0,
+  "gds_sha256": "1c0d442e99115f6e1bc2aa7a0dc7dc41c99550dc2488816f3959a714b33dd6a8",
+  "powered_netlist_sha256": "990e8c9ba0acaea8c62d563081870a4c3c2625a96cca6324b5b72c35d727fe5e",
+  "artifact_archive_sha256": {
+    "tt_submission": "7845f94f4e2c11b0d912f2529e69ac2371da9abcf34df394ec7bd4aead480d46",
+    "precheck_reports": "b9a326c9b1f84b2c8344005dc95058bdc71b5b85171875f97d11eb76898a3e69",
+    "gds_render": "98bf6ab42905b530fde26259976b430df616527be863298b5e6819a464e6aafb"
+  }
+}
