@@ -1,0 +1,35 @@
+
+name: gds
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  gds:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout submission candidate
+        uses: actions/checkout@v6
+
+      - name: Verify frozen submission artifacts
+        shell: bash
+        run: sha256sum --check RELEASE_SHA256SUMS.txt
+
+      - name: Publish exact custom GDS artifact
+        uses: TinyTapeout/tt-gds-action/custom_gds@ttsky26d
+        with:
+          top_module: tt_um_vaish_uart
+          gds_path: gds/tt_um_vaish_uart.gds
+          lef_path: lef/tt_um_vaish_uart.lef
+          verilog_path: netlist/tt_um_vaish_uart.v
+          pdk: sky130A
+
+  precheck:
+    needs: gds
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Official Tiny Tapeout precheck
+        uses: TinyTapeout/tt-gds-action/precheck@ttsky26d

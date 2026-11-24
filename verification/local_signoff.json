@@ -1,0 +1,23 @@
+{
+  "gds_sha256": "1c0d442e99115f6e1bc2aa7a0dc7dc41c99550dc2488816f3959a714b33dd6a8",
+  "netlist_sha256": "42c81bf68b0a683b4928ed6de96c328a7a32076a5feef72ff149b79d841f0ee9",
+  "lef_sha256": "74e4a41ad488df256323e7dd594a5066b42ecb2d80eb5c926e77fd43a02f9882",
+  "local_physical_metrics": {
+    "route__drc_errors": 0,
+    "magic__drc_error__count": 0,
+    "klayout__drc_error__count": 0,
+    "design__lvs_error__count": 0,
+    "timing__setup_vio__count": 0,
+    "timing__hold_vio__count": 0,
+    "design__max_slew_violation__count": 0,
+    "design__power_grid_violation__count": 0
+  },
+  "reset_conditioned_formal_equivalence": "PASS",
+  "proven_output_bits": 24,
+  "external_io_nine_corner_contract": "PASS",
+  "power_grid_connectivity": "PASS",
+  "provider_precheck": "NOT RUN",
+  "board_level_validation": "OPEN",
+  "quantitative_cdc_mtbf": "NOT ESTABLISHED",
+  "fabrication_submission": "NOT SUBMITTED"
+}

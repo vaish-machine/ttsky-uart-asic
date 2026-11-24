@@ -1,0 +1,17 @@
+
+name: docs
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  docs:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@v6
+      - name: Build project documentation
+        uses: TinyTapeout/tt-gds-action/docs@ttsky26d
