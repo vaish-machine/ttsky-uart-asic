@@ -24,7 +24,7 @@ jobs:
           top_module: tt_um_vaish_uart
           gds_path: gds/tt_um_vaish_uart.gds
           lef_path: lef/tt_um_vaish_uart.lef
-          verilog_path: netlist/tt_um_vaish_uart.v
+          verilog_path: netlist/tt_um_vaish_uart.powered.v
           pdk: sky130A
 
   precheck:
